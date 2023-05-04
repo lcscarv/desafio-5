@@ -5,4 +5,4 @@ webserver_config.py
 /logs
 airflow.db
 airflow.cfg
-airflow_webserver.pid
+airflow-webserver.pid
