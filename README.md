@@ -1,6 +1,7 @@
 # Desafio 5 - ETL de Banco de dados Northwind usando Airflow.
 
-Esta é uma DAG ETL que tem como objetivo extrair dados do banco de dados Northwind E-commerce e realizar algumas operações ELT.
+Esta é uma DAG que tem como objetivo extrair dados do banco de dados Northwind E-commerce e realizar algumas operações ELT.
+Foi desenvolvido em Linux e ambiente virtual de Python. 
 
 # Tarefas
 * northwind_extract:
@@ -32,7 +33,7 @@ Esta é uma DAG ETL que tem como objetivo extrair dados do banco de dados Northw
 
 * Certifique-se de que os caminhos de arquivo especificados nas tarefas de extração correspondam aos caminhos em seu sistema.
 
-* Inicie o servidor do Airflow e aguarde a conclusão do DAG.
+* Inicie o Airflow Standalone, execute a DAG e aguarde sua conclusão.
 
 
 
