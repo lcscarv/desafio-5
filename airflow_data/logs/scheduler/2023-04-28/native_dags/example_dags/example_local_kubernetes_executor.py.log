@@ -1,0 +1,330 @@
+[2023-04-28T18:00:18.670-0300] {processor.py:153} INFO - Started process (PID=4482) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:00:18.671-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:00:18.672-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:00:18.672-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:00:18.686-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:00:18.685-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:00:18.686-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:00:18.686-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:00:18.686-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:00:18.698-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.032 seconds
+[2023-04-28T18:01:01.252-0300] {processor.py:153} INFO - Started process (PID=4628) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:01:01.253-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:01:01.254-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:01:01.254-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:01:01.269-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:01:01.269-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:01:01.270-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:01:01.270-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:01:01.270-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:01:01.280-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2023-04-28T18:01:41.692-0300] {processor.py:153} INFO - Started process (PID=4665) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:01:41.693-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:01:41.694-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:01:41.694-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:01:41.707-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:01:41.706-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:01:41.707-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:01:41.707-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:01:41.707-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:01:41.712-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2023-04-28T18:02:24.319-0300] {processor.py:153} INFO - Started process (PID=4746) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:02:24.321-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:02:24.321-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:02:24.321-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:02:24.347-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:02:24.345-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:02:24.348-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:02:24.348-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:02:24.348-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:02:24.368-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.066 seconds
+[2023-04-28T18:03:11.742-0300] {processor.py:153} INFO - Started process (PID=4838) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:03:11.743-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:03:11.744-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:03:11.743-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:03:11.753-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:03:11.753-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:03:11.754-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:03:11.754-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:03:11.754-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:03:11.759-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2023-04-28T18:03:56.145-0300] {processor.py:153} INFO - Started process (PID=4880) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:03:56.147-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:03:56.147-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:03:56.147-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:03:56.158-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:03:56.157-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:03:56.158-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:03:56.158-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:03:56.158-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:03:56.165-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2023-04-28T18:04:32.161-0300] {processor.py:153} INFO - Started process (PID=4919) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:04:32.162-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:04:32.163-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:04:32.162-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:04:32.174-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:04:32.174-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:04:32.175-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:04:32.175-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:04:32.175-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:04:32.182-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2023-04-28T18:05:17.673-0300] {processor.py:153} INFO - Started process (PID=5066) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:05:17.675-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:05:17.675-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:05:17.675-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:05:17.685-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:05:17.684-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:05:17.685-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:05:17.685-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:05:17.685-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:05:17.690-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2023-04-28T18:05:51.800-0300] {processor.py:153} INFO - Started process (PID=5101) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:05:51.801-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:05:51.801-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:05:51.801-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:05:51.811-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:05:51.811-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:05:51.811-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:05:51.811-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:05:51.811-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:05:51.816-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2023-04-28T18:06:27.853-0300] {processor.py:153} INFO - Started process (PID=5137) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:06:27.858-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:06:27.858-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:06:27.858-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:06:27.868-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:06:27.868-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:06:27.868-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:06:27.868-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:06:27.868-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:06:27.874-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2023-04-28T18:07:12.384-0300] {processor.py:153} INFO - Started process (PID=5173) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:07:12.385-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:07:12.386-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:07:12.386-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:07:12.398-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:07:12.398-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:07:12.398-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:07:12.398-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:07:12.399-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:07:12.405-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2023-04-28T18:08:06.216-0300] {processor.py:153} INFO - Started process (PID=5367) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:08:06.218-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:08:06.218-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:08:06.218-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:08:06.230-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:08:06.230-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:08:06.230-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:08:06.230-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:08:06.231-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:08:06.237-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2023-04-28T18:08:46.503-0300] {processor.py:153} INFO - Started process (PID=5405) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:08:46.535-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:08:46.536-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:08:46.536-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:08:46.547-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:08:46.547-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:08:46.547-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:08:46.547-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:08:46.547-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:08:46.552-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.052 seconds
+[2023-04-28T18:09:34.449-0300] {processor.py:153} INFO - Started process (PID=5499) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:09:34.527-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:09:34.528-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:09:34.528-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:09:34.545-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:09:34.544-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:09:34.545-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:09:34.545-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:09:34.545-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:09:34.550-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.103 seconds
+[2023-04-28T18:10:25.120-0300] {processor.py:153} INFO - Started process (PID=5645) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:10:25.316-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:10:25.318-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:10:25.318-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:10:25.333-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:10:25.332-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:10:25.333-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:10:25.333-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:10:25.333-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:10:25.338-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.221 seconds
+[2023-04-28T18:11:05.376-0300] {processor.py:153} INFO - Started process (PID=5731) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:11:05.475-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:11:05.477-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:11:05.477-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:11:05.487-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:11:05.486-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:11:05.487-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:11:05.487-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:11:05.487-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:11:05.493-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.119 seconds
+[2023-04-28T18:11:52.327-0300] {processor.py:153} INFO - Started process (PID=5825) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:11:52.328-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:11:52.329-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:11:52.328-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:11:52.340-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:11:52.339-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:11:52.340-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:11:52.340-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:11:52.340-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:11:52.346-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2023-04-28T18:12:30.033-0300] {processor.py:153} INFO - Started process (PID=5858) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:12:30.092-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:12:30.094-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:12:30.094-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:12:30.107-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:12:30.106-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:12:30.107-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:12:30.107-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:12:30.107-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:12:30.113-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.082 seconds
+[2023-04-28T18:13:26.633-0300] {processor.py:153} INFO - Started process (PID=5900) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:13:26.634-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:13:26.635-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:13:26.635-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:13:26.646-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:13:26.646-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:13:26.646-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:13:26.646-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:13:26.647-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:13:26.653-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2023-04-28T18:14:24.138-0300] {processor.py:153} INFO - Started process (PID=5946) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:14:24.140-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:14:24.140-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:14:24.140-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:14:24.150-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:14:24.150-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:14:24.150-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:14:24.150-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:14:24.150-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:14:24.156-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2023-04-28T18:15:07.758-0300] {processor.py:153} INFO - Started process (PID=5982) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:15:07.787-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:15:07.789-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:15:07.788-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:15:07.803-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:15:07.803-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:15:07.803-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:15:07.803-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:15:07.803-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:15:07.809-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.053 seconds
+[2023-04-28T18:15:45.550-0300] {processor.py:153} INFO - Started process (PID=6067) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:15:45.557-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:15:45.558-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:15:45.558-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:15:45.569-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:15:45.569-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:15:45.569-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:15:45.569-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:15:45.570-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:15:45.575-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2023-04-28T18:16:23.169-0300] {processor.py:153} INFO - Started process (PID=6099) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:16:23.170-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:16:23.171-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:16:23.171-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:16:23.181-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:16:23.180-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:16:23.181-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:16:23.181-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:16:23.181-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:16:23.187-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2023-04-28T18:17:01.992-0300] {processor.py:153} INFO - Started process (PID=6132) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:17:01.993-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:17:01.994-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:17:01.994-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:17:02.005-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:17:02.005-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:17:02.005-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:17:02.005-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:17:02.006-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:17:02.012-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2023-04-28T18:17:40.989-0300] {processor.py:153} INFO - Started process (PID=6166) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:17:40.990-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:17:40.991-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:17:40.991-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:17:41.000-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:17:41.000-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:17:41.001-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:17:41.001-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:17:41.001-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:17:41.007-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2023-04-28T18:18:27.191-0300] {processor.py:153} INFO - Started process (PID=6210) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:18:27.192-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:18:27.192-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:18:27.192-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:18:27.205-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:18:27.204-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:18:27.205-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:18:27.205-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:18:27.205-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:18:27.211-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2023-04-28T18:19:09.380-0300] {processor.py:153} INFO - Started process (PID=6249) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:19:09.383-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:19:09.384-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:19:09.384-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:19:09.434-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:19:09.433-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:19:09.434-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:19:09.434-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:19:09.435-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:19:09.465-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.094 seconds
+[2023-04-28T18:19:55.417-0300] {processor.py:153} INFO - Started process (PID=6292) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:19:55.418-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:19:55.419-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:19:55.419-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:19:55.429-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:19:55.429-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:19:55.429-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:19:55.429-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:19:55.429-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:19:55.435-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2023-04-28T18:20:32.803-0300] {processor.py:153} INFO - Started process (PID=6377) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:20:32.804-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:20:32.804-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:20:32.804-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:20:32.815-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:20:32.814-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:20:32.815-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:20:32.815-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:20:32.815-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:20:32.821-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2023-04-28T18:21:20.476-0300] {processor.py:153} INFO - Started process (PID=6421) to work on /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:21:20.478-0300] {processor.py:743} INFO - Processing file /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-04-28T18:21:20.478-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:21:20.478-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:21:20.490-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:21:20.490-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-04-28T18:21:20.490-0300] {logging_mixin.py:137} INFO - [2023-04-28T18:21:20.490-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-04-28T18:21:20.490-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-04-28T18:21:20.498-0300] {processor.py:175} INFO - Processing /home/lcscarv/projetos/indicium/desafio_5/.venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
