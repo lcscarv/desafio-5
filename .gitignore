@@ -1,3 +1,8 @@
 .venv
 my_tests.py
 standalone_admin_password.txt
+webserver_config.py
+/logs
+airflow.db
+airflow.cfg
+airflow_webserver.pid
